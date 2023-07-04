@@ -25,4 +25,4 @@ $c = $a + $b;
 * Russian: native 
 * Ukrainian: native
 * English: B2 (Upper-intermediate)
-* Polish: A1 (beginner)
+* Polish: A1 beginner
