@@ -1,0 +1,78 @@
+html{
+	box-sizing: border-box;/* говорит браузеру учитывать любые границы и внутренние отступы в значениях, которые вы указываете в ширине и высоте элемента. Если вы выставите элементу ширину 100 пикселей, то эти 100 пикселей будут включать в себя границы и внутренние отступы, а контент сожмётся, чтобы выделить для них место. Обычно это упрощает работу с размерами элементов. */
+	scroll-behavior: smooth; 
+}
+
+*, *::after, *::before{
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0 ;
+}
+
+ul {
+	list-style: none;  
+}
+
+a{
+	text-decoration: none; 
+	color: inherit; 
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.header{
+	background-color: #829985;
+}
+
+.container{
+	max-width: 1460px;
+	padding: 0 10px;
+	margin: 0 auto;
+	
+}
+
+.menu__list{
+	display: flex;
+   justify-content: flex-end;
+   align-items: center;
+	gap: 25px;
+}
+
+.menu__list-link{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 50px;
+  	color: #fff; 
+	text-transform: uppercase;
+}
+
+.footer{
+	background-color: #829985;
+	padding: 10px;
+}
+
+.menu__footer{
+	display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.menu__footer-item{
+	display: flex;
+}
+
+.menu__footer-link{
+	color: #fff;
+	line-height: 45px;
+}
+
+.menu__footer-gitlink{
+	width: 100px;
+  	height: 50px;
+  	background-image: url("assets/svg/rs_school_js.svg");
+  	background-size: contain;
+	background-repeat: no-repeat;
+}
