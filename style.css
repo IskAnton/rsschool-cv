@@ -32,6 +32,7 @@ body{
 .container{
 	max-width: 1460px;
 	padding: 0 10px;
+	margin: 0 auto;
 }
 
 .menu__list{
@@ -108,6 +109,10 @@ body{
    margin: 0;
    margin-bottom: 10px;
    padding: 0;
+}
+
+.cv-link{
+	color: #672f2f;
 }
 
 .contact-item-color{
