@@ -1,0 +1,153 @@
+html{
+	box-sizing: border-box;/* говорит браузеру учитывать любые границы и внутренние отступы в значениях, которые вы указываете в ширине и высоте элемента. Если вы выставите элементу ширину 100 пикселей, то эти 100 пикселей будут включать в себя границы и внутренние отступы, а контент сожмётся, чтобы выделить для них место. Обычно это упрощает работу с размерами элементов. */
+	scroll-behavior: smooth; 
+}
+
+*, *::after, *::before{
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0 ;
+}
+
+ul {
+	list-style: none;  
+}
+
+a{
+	text-decoration: none; 
+	color: inherit; 
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 2;
+}
+
+.header{
+	background-color: #829985;
+}
+
+.container{
+	max-width: 1460px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.menu__list{
+	display: flex;
+   justify-content: flex-end;
+   align-items: center;
+	gap: 25px;
+}
+
+.menu__list-link{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 50px;
+  	color: #fff; 
+	text-transform: uppercase;
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+	.section {
+	  width: 100%;
+	}
+ }
+.section{
+	width: calc(50% - 20px);
+}
+
+.section__profile {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 40px 30px 30px;
+	border-bottom: 15px solid #d7d1c9; /* разделяющая линия */
+ }
+
+.profile-photo {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.descr-main{
+  	margin-top: 20px;
+  	color: #672f2f;
+  	font-size: 32px;
+  	font-weight: 400;
+  	letter-spacing: 10px;
+  	line-height: 50px;
+}
+
+.descr-auxilary{
+	margin-top: 20px;
+	color: #672f2f;
+	line-height: 50px;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+.section-title{
+	margin: 20px 0;  
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #829985;
+}
+
+.contact-item{
+	position: relative;
+   margin: 0;
+   margin-bottom: 10px;
+   padding: 0;
+}
+
+.cv-link{
+	color: #672f2f;
+}
+
+.contact-item-color{
+	color: #829985;
+}
+
+.code{
+	white-space: pre-line;
+}
+
+.footer{
+	background-color: #829985;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.menu__footer{
+	display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.menu__footer-item{
+	display: flex;
+}
+
+.menu__footer-link{
+	color: #fff;
+	line-height: 45px;
+}
+
+.menu__footer-gitlink{
+	width: 100px;
+  	height: 50px;
+  	background-image: url("assets/svg/rs_school_js.svg");
+  	background-size: contain;
+	background-repeat: no-repeat;
+}
