@@ -15,3 +15,15 @@ I have good interpersonal skills, a good team player and really willing to learn
 - _Git (basic)_
 - _HTML (basic)_
 - _CSS (basic)_
+
+## Code example
+
+```
+$a = 5;
+$b = 3;
+$c = $a + $b;
+```
+
+## Experience
+
+### Do not have experience as a developer
