@@ -27,3 +27,14 @@ $c = $a + $b;
 ## Experience
 
 ### Do not have experience as a developer
+
+## Education
+
+- **_University:_** National Technical University – «Kharkiv Polytechnic Institute»
+
+## Languages:
+
+- Russian: native
+- Ukrainian: native
+- English: B2/C1
+- Polish: B1
